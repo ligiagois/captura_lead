@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captura de Lead</title>
+</head>
+<body>
+   
+    <div class="corpo1">
+        <div class="titulo">
+        <h2>Learn to code by <br> watching others</h2>
+        </div>
+        <div class="texto">
+        <p> See how experienced devolopers salve problem in real-time. <br>
+            watching scripted tutoriais is great. but understanding how <br>
+            developers think is invaluable.
+        </p>
+        </div>
+    </div>
+
+    <div class="corpo2">
+        <div class="topo">
+           <button id="topo1"> Try it free 7 days then $20/mo. thereafter</button>
+        </div>
+
+        <div class="caixa">
+            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="last_name" placeholder="Last Name">
+            <input type="email" id="email" placeholder="Email Address">
+            <input type="password" id="password" placeholder="Password">
+            
+            <button>CLAIN YOUR FREE TRIAL</button>
+        </div>
+
+    </div>
+   
+    
+</body>
+
+<style>
+    body{
+        background-image: url(https://media.istockphoto.com/id/1308680206/pt/foto/abstract-pink-coral-gradient-background-empty-space-studio-room-for-display-product-ad-website.jpg?s=612x612&w=0&k=20&c=aErjdSaIq7jI8XsqabWHso3AAZWk6h_dyyOZ2e2HCUQ=);
+        color: white;
+    }
+
+    .corpo1{
+        margin-left: 22%;
+        margin-top: 20%;
+    }
+    
+    .corpo2{
+        
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+        flex-direction: column;
+        margin-left: 52%;
+        margin-top: -20%;
+        width: 25em;
+        height: 25em;
+    }
+
+    .caixa {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        background-color: white;
+        width: 25em;
+        height: 25em;
+        border-radius: 0.5em;
+    }
+
+    input {
+        width: 25em;
+        height: 2em;
+        margin: 1em;
+    }
+
+    #topo1 {
+        background-color: blueviolet;
+        width: 25em;
+        color: white;
+    }
+  
+    button {
+        margin: 0.5em;
+        background-color: #3CB371;
+        border: none;
+        border-radius: 0.5em;
+        height: 2em;
+        color: white;
+    }
+
+    .titulo {
+        font-size: 25px;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+</style>
+</html>
